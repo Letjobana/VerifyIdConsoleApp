@@ -30,13 +30,31 @@ namespace IdentityVerification
             if (DateTime.TryParseExact(dateOfBirth, "yyMMdd", CultureInfo.InvariantCulture, DateTimeStyles.None, out dt))
             {
                 Console.WriteLine("Your birth date is:" + dt.ToString("yyyy/MM/dd", CultureInfo.InvariantCulture));
+                GetAge(birthDay);
 
             }
             else
             {
-                Console.WriteLine("Invalid birth date");
+                Console.WriteLine("Invalid date of birth, Please make sure your Identity is correct");
             }
 
+        }
+        public static void GetAge(string age)
+        {
+            DateTime dt;
+            var dateOfBirth = age.Substring(0, 6);
+            if (DateTime.TryParseExact(dateOfBirth, "yyMMdd", CultureInfo.InvariantCulture, DateTimeStyles.None, out dt))
+            {
+                DateTime dob = Convert.ToDateTime(dt);
+                DateTime PresentYear = DateTime.Now;
+                TimeSpan ts = PresentYear - dob;
+                DateTime Age = DateTime.MinValue.AddDays(ts.Days);
+                Console.WriteLine("You are :" + string.Format(" {0} Years Old", Age.Year));
+            }
+            else
+            {
+                Console.WriteLine("Invalid Age, Please make sure your Identity is correct");
+            }
         }
     }
 }
