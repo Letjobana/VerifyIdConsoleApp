@@ -1,0 +1,7 @@
+C:\Users\Developer 2\Documents\Document\MixedProjects\Mixed Project2\VerifyIdApp\IdentityVerification\IdentityVerification\bin\Debug\IdentityVerification.exe.config
+C:\Users\Developer 2\Documents\Document\MixedProjects\Mixed Project2\VerifyIdApp\IdentityVerification\IdentityVerification\bin\Debug\IdentityVerification.exe
+C:\Users\Developer 2\Documents\Document\MixedProjects\Mixed Project2\VerifyIdApp\IdentityVerification\IdentityVerification\bin\Debug\IdentityVerification.pdb
+C:\Users\Developer 2\Documents\Document\MixedProjects\Mixed Project2\VerifyIdApp\IdentityVerification\IdentityVerification\obj\Debug\IdentityVerification.csprojAssemblyReference.cache
+C:\Users\Developer 2\Documents\Document\MixedProjects\Mixed Project2\VerifyIdApp\IdentityVerification\IdentityVerification\obj\Debug\IdentityVerification.csproj.CoreCompileInputs.cache
+C:\Users\Developer 2\Documents\Document\MixedProjects\Mixed Project2\VerifyIdApp\IdentityVerification\IdentityVerification\obj\Debug\IdentityVerification.exe
+C:\Users\Developer 2\Documents\Document\MixedProjects\Mixed Project2\VerifyIdApp\IdentityVerification\IdentityVerification\obj\Debug\IdentityVerification.pdb
